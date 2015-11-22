@@ -8,12 +8,11 @@ namespace Model
 {
     public class Numbertron
     {  
-        public event EventHandler<NewNumberEventArgs> NewNumber;
+        public event EventHandler <NewNumberEventArgs> NewNumber;
 
         public void Generate(Random rnd)
         {
-            int rndNumber = rnd.Next(10);
-
+            int rndNumber = rnd.Next();
             NewNumber?.Invoke(this, new NewNumberEventArgs(rndNumber));
         }
     }
