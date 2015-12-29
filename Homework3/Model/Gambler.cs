@@ -11,11 +11,12 @@ namespace Model
         protected Gambler(string name)
         {
             Name = name;
+            
         }
 
         public string Name { get; }
 
-        public int Score { get; set; }
+        public int Score { get; protected set; }
 
         public abstract void FetchNewNumber(object sender, NewNumberEventArgs e);
 

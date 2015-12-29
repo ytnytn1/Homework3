@@ -34,8 +34,7 @@ namespace View
                 }
             }
             Console.Clear();
-            var rnd = new Random();
-
+            
             var numbertron = new Numbertron();
 
             var jay = new Jay();
@@ -47,15 +46,22 @@ namespace View
 
             for (int i = 0; i < amountOfNumber; i++)
             {
-                numbertron.Generate(rnd);
+                numbertron.Generate();
             }
-
-            if(jay.Score > silentbob.Score)
+            if (jay.Score > silentbob.Score)
+            {
                 Console.WriteLine("{0} is a winner",jay.Name);
+            }
             else if (jay.Score < silentbob.Score)
+            {
                 Console.WriteLine("{0} is a winner", silentbob.Name);
-            else 
+            }
+            else
+            {
                 Console.WriteLine("Draw");
+            }
+            Console.WriteLine(jay.Score);
+            Console.WriteLine(silentbob.Score);
             Console.ReadKey();
             
         }

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksView", "TasksView\TasksView.csproj", "{48760F07-047E-4768-BA86-CC47D02C4C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{0B995B76-C282-47CC-935D-BE0D7FF4B038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{B9E26756-EB6E-475C-B304-A6E8A2054CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48760F07-047E-4768-BA86-CC47D02C4C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48760F07-047E-4768-BA86-CC47D02C4C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48760F07-047E-4768-BA86-CC47D02C4C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48760F07-047E-4768-BA86-CC47D02C4C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B995B76-C282-47CC-935D-BE0D7FF4B038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B995B76-C282-47CC-935D-BE0D7FF4B038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B995B76-C282-47CC-935D-BE0D7FF4B038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B995B76-C282-47CC-935D-BE0D7FF4B038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E26756-EB6E-475C-B304-A6E8A2054CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E26756-EB6E-475C-B304-A6E8A2054CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E26756-EB6E-475C-B304-A6E8A2054CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E26756-EB6E-475C-B304-A6E8A2054CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

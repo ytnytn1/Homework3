@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 namespace Model
 {
     public class Numbertron
-    {  
+    {
+        
         public event EventHandler <NewNumberEventArgs> NewNumber;
 
-        public void Generate(Random rnd)
+        public void Generate()
         {
-            int rndNumber = rnd.Next();
+            int rndNumber = Randomizer.Rnd.Next();
             NewNumber?.Invoke(this, new NewNumberEventArgs(rndNumber));
         }
     }
